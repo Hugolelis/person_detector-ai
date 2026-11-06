@@ -4,9 +4,9 @@
 
 <div align="left">
 
-[![License](https://img.shields.io/badge/License-MIT-2a2a2a?style=for-the-badge&labelColor=1a1a1a&logoColor=white)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-facc15?style=for-the-badge&labelColor=1a1a1a&logoColor=white)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-407a50?style=for-the-badge&labelColor=1a1a1a&logoColor=white)]()
-[![Version](https://img.shields.io/badge/Version-0.1.0-2a2a2a?style=for-the-badge&labelColor=1a1a1a&logoColor=white)]()
+[![Version](https://img.shields.io/badge/Version-0.1.0-ea580c?style=for-the-badge&labelColor=1a1a1a&logoColor=white)]()
 
 </div>
 

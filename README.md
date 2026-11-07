@@ -25,8 +25,8 @@
 - [Output Structure](#output-structure)
 - [Development](#development)
 - [Performance & Troubleshooting](#performance--troubleshooting)
-- [License](#license)
 - [Author](#author)
+- [License](#license)
 
 </details>
 
@@ -433,12 +433,12 @@ To fix it for the VS Code terminal permanently, add this to the VS Code user set
 
 ---
 
-## License
-
-Distributed under the **MIT License**.
-
----
-
 ## Author
 
 [Hugolelis](https://github.com/Hugolelis)
+
+---
+
+## License
+
+Distributed under the **MIT License**.

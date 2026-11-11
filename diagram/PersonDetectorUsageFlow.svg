@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 764" width="2000" height="764">
 <rect width="2000" height="764" fill="#ffffff"/>
 <text x="42" y="78" font-family="Liberation Sans Narrow" font-size="43" font-weight="bold" fill="#111111">USAGE FLOW OF THE PERSON <tspan fill="#555555">DETECTOR</tspan></text>
-<text x="42" y="103" font-family="Liberation Sans Narrow" font-size="14.5" font-weight="normal" fill="#555555" text-anchor="start">From redzone calibration to the occupancy chart, through the detection and violation pipeline on a recorded video.</text>
+<text x="42" y="103" font-family="Liberation Sans Narrow" font-size="14.5" font-weight="normal" fill="#555555" text-anchor="start">From zone calibration to the occupancy chart, through detection, violation and depth, on a video file or a webcam.</text>
 <text x="204" y="143" font-family="Liberation Sans Narrow" font-size="13" font-weight="bold" fill="#111111" text-anchor="start">1  ZONE CALIBRATION</text>
 <rect x="204" y="151" width="335" height="3" fill="#cccccc"/>
 <text x="591" y="143" font-family="Liberation Sans Narrow" font-size="13" font-weight="bold" fill="#111111" text-anchor="start">2  EXECUTION</text>
@@ -20,12 +20,12 @@
 <text x="107" y="581" font-family="Liberation Sans Narrow" font-size="15.5" font-weight="bold" fill="#111111" text-anchor="middle">PIPELINE</text>
 <rect x="204" y="210" width="141" height="61" rx="9" fill="#ffffff" stroke="#111111" stroke-width="1.6"/>
 <text x="274.5" y="230.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">1. Prepare the environment</text>
-<text x="274.5" y="244.35" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">and choose the video</text>
-<text x="274.5" y="257.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">(.mp4)</text>
+<text x="274.5" y="244.35" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">(Poetry or Docker) and</text>
+<text x="274.5" y="257.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">choose a video or webcam</text>
 <rect x="204" y="335" width="141" height="62" rx="9" fill="#111111" />
-<text x="274.5" y="356.35" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">2. Open the 1st frame of</text>
-<text x="274.5" y="369.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">the video in the</text>
-<text x="274.5" y="383.35" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">calibration tool</text>
+<text x="274.5" y="356.35" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">2. Open the 1st frame in</text>
+<text x="274.5" y="369.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">Edit zone (window) or</text>
+<text x="274.5" y="383.35" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">calibrate.py</text>
 <rect x="398" y="210" width="140" height="61" rx="9" fill="#ffffff" stroke="#111111" stroke-width="1.6"/>
 <text x="468.0" y="230.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">3. Click the points of the</text>
 <text x="468.0" y="244.35" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">redzone polygon on</text>
@@ -35,13 +35,13 @@
 <text x="468.0" y="369.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">and parameters in</text>
 <text x="468.0" y="383.35" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">config.yaml</text>
 <rect x="591" y="210" width="141" height="61" rx="9" fill="#ffffff" stroke="#111111" stroke-width="1.6"/>
-<text x="661.5" y="230.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">5. Run main.py with the</text>
-<text x="661.5" y="244.35" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">video and the config</text>
-<text x="661.5" y="257.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">file</text>
+<text x="661.5" y="230.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">5. Press Start in gui.py</text>
+<text x="661.5" y="244.35" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">or run main.py --video;</text>
+<text x="661.5" y="257.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">optional: Depth view</text>
 <rect x="785" y="511" width="140" height="61" rx="9" fill="#d4d4d4" />
-<text x="855.0" y="531.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">6. Open the .mp4 and read</text>
-<text x="855.0" y="545.35" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">the video frame by</text>
-<text x="855.0" y="558.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">frame</text>
+<text x="855.0" y="531.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">6. Read frames from the</text>
+<text x="855.0" y="545.35" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">file or the webcam, resized</text>
+<text x="855.0" y="558.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">once to 1280 px</text>
 <rect x="968" y="511" width="141" height="61" rx="9" fill="#d4d4d4" />
 <text x="1038.5" y="531.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">7. YOLO detects people</text>
 <text x="1038.5" y="545.35" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">in the frame (above the</text>
@@ -55,9 +55,9 @@
 <text x="1417.5" y="662.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">record the clip (~5 s)</text>
 <text x="1417.5" y="676.35" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">and log the event</text>
 <rect x="1785" y="511" width="140" height="61" rx="9" fill="#d4d4d4" />
-<text x="1855.0" y="531.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">10. Generate the occupancy</text>
-<text x="1855.0" y="545.35" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">chart with the limit</text>
-<text x="1855.0" y="558.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">line</text>
+<text x="1855.0" y="531.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">10. Write the occupancy</text>
+<text x="1855.0" y="545.35" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">chart with the limit line</text>
+<text x="1855.0" y="558.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">(live in the window)</text>
 <rect x="1785" y="210" width="140" height="61" rx="9" fill="#ffffff" stroke="#111111" stroke-width="1.6"/>
 <text x="1855.0" y="230.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">11. Review the chart, the</text>
 <text x="1855.0" y="244.35" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">CSVs and the clips; tune</text>
@@ -67,7 +67,8 @@
 <text x="1418" y="544.67" font-family="Liberation Sans Narrow" font-size="10.5" font-weight="bold" fill="#ffffff" text-anchor="middle">for N frames</text>
 <text x="1418" y="557.17" font-family="Liberation Sans Narrow" font-size="10.5" font-weight="bold" fill="#ffffff" text-anchor="middle">in a row?</text>
 <polygon points="1643,491.0 1726.0,541 1643,591.0 1560.0,541" fill="#555555"/>
-<text x="1643" y="544.67" font-family="Liberation Sans Narrow" font-size="10.5" font-weight="bold" fill="#ffffff" text-anchor="middle">End of video?</text>
+<text x="1643" y="538.17" font-family="Liberation Sans Narrow" font-size="10.5" font-weight="bold" fill="#ffffff" text-anchor="middle">Video ended</text>
+<text x="1643" y="551.67" font-family="Liberation Sans Narrow" font-size="10.5" font-weight="bold" fill="#ffffff" text-anchor="middle">or Stop?</text>
 <polyline points="275,271 275.0,328.5" fill="none" stroke="#333333" stroke-width="1.1"/>
 <polygon points="275,335 277.60,328.50 272.40,328.50" fill="#333333"/>
 <polyline points="345,366 371,366 371,240 391.5,240.0" fill="none" stroke="#333333" stroke-width="1.1"/>
@@ -101,5 +102,11 @@
 <text x="1755" y="529" font-family="Liberation Sans Narrow" font-size="10" font-weight="bold" fill="#111111" text-anchor="middle">Yes</text>
 <text x="1661" y="479" font-family="Liberation Sans Narrow" font-size="10" font-weight="bold" fill="#111111" text-anchor="start">No</text>
 <text x="1250" y="477" font-family="Liberation Sans Narrow" font-size="10" font-weight="normal" fill="#555555" text-anchor="middle">next frame</text>
-<text x="204" y="705" font-family="Liberation Sans Narrow" font-size="11" font-weight="normal" fill="#555555" text-anchor="start">Offline processing of a recorded video: one video and one config produce the chart, the CSVs and the clips of the violations in an output folder.</text>
+<text x="204" y="705" font-family="Liberation Sans Narrow" font-size="11" font-weight="normal" fill="#555555" text-anchor="start">One source (video file or webcam) and one config produce the chart, the CSVs and the clips of the violations in an output folder. The window also shows them live; main.py handles video files only.</text>
+<rect x="968" y="628" width="141" height="62" rx="9" fill="#d4d4d4" stroke="#555555" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="1038.5" y="649.35" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">Optional (window): depth</text>
+<text x="1038.5" y="662.85" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">model in a thread ranks</text>
+<text x="1038.5" y="676.35" font-family="Liberation Sans Narrow" font-size="11" font-weight="bold" fill="#111111" text-anchor="middle">people, closest in magenta</text>
+<polyline points="1038.5,572 1038.5,621.5" fill="none" stroke="#333333" stroke-width="1.1" stroke-dasharray="4 3"/>
+<polygon points="1038.5,628 1041.1,621.5 1035.9,621.5" fill="#333333"/>
 </svg>
